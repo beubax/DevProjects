@@ -43,7 +43,7 @@ a {
     font-weight: bold;
 }
 
-.material-icons {
+#apps {
     float: right;
     position: relative;
     right: 30px;
@@ -81,7 +81,7 @@ a {
 }
 
 .text {
-    width: 550px; 
+    width: 500px; 
     height: 40px;
     position: relative;
     right: 10px;  
@@ -89,7 +89,7 @@ a {
 
 .gsearch {
     position: relative;
-    left: 105px;
+    left: 110px;
     top: 30px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -107,7 +107,7 @@ a {
 
 .lucky {
     position: relative;
-    left: 145px;
+    left: 130px;
     top: 30px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -121,4 +121,48 @@ a {
     min-width: 54px;
     text-align: center;
     cursor: pointer;
+}
+
+#search {
+    position: relative;
+    top: 5px;
+    right: 5px;
+    color:rgba(148, 146, 146, 0.836);
+}
+
+footer {
+    display: block;
+    position: relative;
+    top : 350px ;
+    height : 40px;
+    margin-top : 40px;
+    font-family: arial,sans-serif;
+    color: #5f6368;
+    font-size: large;
+    padding: 10px 10px 0px 10px;
+    background-color: rgba(231, 228, 228, 0.836);
+}
+
+.ad {
+    float: left;
+}
+
+.bus {
+    float: left;
+}
+
+.works {
+    float: left;
+}
+
+.pri {
+    float: right;
+}
+
+.terms {
+    float: right;
+}
+
+.set {
+    float: right;
 }
