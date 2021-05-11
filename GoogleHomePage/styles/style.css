@@ -1,12 +1,124 @@
 ul {
 
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
-li a {
-    display: block;
-    width: 60px;
 
+a {
+    display: block;
+    margin: 0px 8px     ;
+    text-decoration: none;  
+    font-family: arial,sans-serif;  
+    font-size: smaller;
+    
+}
+
+
+.about {
+    float: left;
+    position: relative;
+    right: 30px;
+    top: 5px;       
+    color: rgba(0,0,0,0.87);
+}
+
+.store {
+    float: left;
+    position: relative;
+    right: 30px;
+    top: 5px; 
+    color: rgba(0,0,0,0.87);
+}
+
+.signin { 
+    float: right;
+    position: relative;
+    right: 20px;
+    border: 1px #4285f4;
+    border-style: solid;
+    padding: 6px 10px 6px 10px;
+    border-radius: 5%;
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+}
+
+.material-icons {
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 1px; 
+    color: rgba(0,0,0,0.87);
+}
+
+.images {
+    float: right;
+    position: relative;
+    right: 40px;
+    top: 5px; 
+    color: rgba(0,0,0,0.87);
+}
+
+.gmail {
+    float: right;
+    position: relative;
+    right: 40px;
+    top: 5px;   
+    color: rgba(0,0,0,0.87);
+}
+
+.logo {
+    display: block;
+    position: relative;
+    top: 150px;
+    left: 400px;
+}
+
+.form {
+    position: relative;
+    top: 180px;
+    left: 420px;
+}
+
+.text {
+    width: 550px; 
+    height: 40px;
+    position: relative;
+    right: 10px;  
+}
+
+.gsearch {
+    position: relative;
+    left: 105px;
+    top: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.lucky {
+    position: relative;
+    left: 145px;
+    top: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
 }
